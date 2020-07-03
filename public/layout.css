@@ -1,0 +1,71 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #34495e;
+}
+#loginForm{
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+}
+#loginForm h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+#loginForm input[type = "text"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+#loginForm input[type = "text"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+#loginForm input[type = "button"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+#loginForm input[type = "button"]:hover{
+  background: #2ecc71;
+}
+
+
+#wrapper{width: 600px margin:auto}
+/*#txtUsername{background-color:  transparent; border:solid 1px black}*/
+
+#left, #right:{min-height: 300px}
+#left{width:30% ; float:left; background-color: #6cdef5}
+#right{width:70%; float:right; background-color: #6dedd4}
+
+#boxTitle{border: solid 1px black; padding: 5px; text-align: center; font-weight: bold}
+#boxContent{border: solid 1px black; border-top: none; padding: 5px; text-align: center}
+#sayHi{text-align: right}
+
+#listMessages{height: 200px; background-color: #34d2eb; margin-bottom: 15px}
+#txtMessages{background-color: transparent; border: solid 1px black}
